@@ -11,12 +11,13 @@ public class DatosDeCasa {
         this.numeroPasaje = nPasaje;
     }
     
-    public String getDatosDeCasa(){
+    public void getDatosDeCasa(){
         String informacion = "";
         informacion += "Numero de Casa: " + numeroCasa + "\n";
         informacion += "Calle: " + calle + "\n";
         informacion += "Numero de Pasaje: " + numeroPasaje + "\n";
-        return informacion;
+        
+        System.out.println(informacion);
     }
     
     

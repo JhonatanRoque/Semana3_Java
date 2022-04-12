@@ -31,7 +31,7 @@ public class Ejercicio1_Casa {
             
             System.out.println("---------------------");
             //Mostrar los datos ingresados en la clase Casa(DatosDeCasa), desde el método GetDatosDeCasa
-            System.out.println(casa.getDatosDeCasa());
+            casa.getDatosDeCasa();
             
         }catch(Exception e){
             System.out.println(e.getMessage());
