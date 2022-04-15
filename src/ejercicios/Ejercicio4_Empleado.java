@@ -15,7 +15,7 @@ Métodos:
 */
 import java.io.*;
 
-public class Ejercicio3_Empleado {
+public class Ejercicio4_Empleado {
     public static void main(String[] args) {
         //Crear objeto que leera datos desde teclado
         BufferedReader leer = new BufferedReader(new InputStreamReader(System.in));
